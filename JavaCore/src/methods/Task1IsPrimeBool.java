@@ -2,7 +2,7 @@ package methods;
 
 import java.util.Scanner;
 
-public class Task1 {
+public class Task1IsPrimeBool {
     public static void main(String[] args) {
         Scanner scan = new Scanner("127 69 -3 0 7"); // true false false false true
         for (int i = 0; i < 5; i++) {
