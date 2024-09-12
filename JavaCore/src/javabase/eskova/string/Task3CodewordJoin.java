@@ -14,7 +14,7 @@ public class Task3CodewordJoin {
         while (in.hasNextLine()) {
             String str = in.nextLine();
             int begin = str.indexOf(';');
-            int end = str.indexOf(';');
+            int end = str.indexOf(';', begin + 1);
             psw += str.substring(begin + 1, end);
         }
         System.out.println(psw);
